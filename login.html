@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login - iStudio</title>
+    <style>
+        .login-container {
+            max-width: 400px;
+            width: 100%;
+            margin: 80px auto;
+        }
+        .auth-card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        .btn-auth {
+            background-color: #2874f0;
+            color: white;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        .btn-auth:hover {
+            background-color: #1259cc;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <!-- Simple Header for Auth -->
+    <header class="py-3 bg-white shadow-sm mb-5">
+        <div class="container text-center">
+            <a href="index.html">
+                <img src="assets/images/logo.png" width="120" alt="iStudio">
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="login-container">
+            <div class="card auth-card p-4 p-md-5 bg-white">
+                <h3 class="font-weight-bold text-center mb-4">Login</h3>
+                <form action="index.html" method="GET">
+                    <div class="form-group mb-4">
+                        <label class="small font-weight-bold text-muted">Email or Mobile Number</label>
+                        <input type="text" class="form-control px-3" placeholder="Enter Email/Mobile number" required>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label class="small font-weight-bold text-muted">Password</label>
+                        <input type="password" class="form-control px-3" placeholder="Enter Password" required>
+                        <div class="text-right mt-1">
+                            <a href="#" class="small text-primary">Forgot?</a>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-auth btn-block shadow-sm">Login</button>
+                    
+                    <div class="text-center mt-4">
+                        <p class="small text-muted">New to iStudio? <a href="signup.html" class="font-weight-bold text-primary">Create an account</a></p>
+                    </div>
+
+                    <div class="or-divider d-flex align-items-center my-4">
+                        <hr class="flex-grow-1">
+                        <span class="mx-3 text-muted small">OR</span>
+                        <hr class="flex-grow-1">
+                    </div>
+
+                    <div class="social-login">
+                        <button type="button" class="btn btn-outline-secondary btn-block mb-3 small py-2">
+                             <i class="fab fa-google mr-2 text-danger"></i> Continue with Google
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="text-center mt-5">
+                <a href="index.html" class="text-muted small"><i class="fas fa-arrow-left mr-1"></i> Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

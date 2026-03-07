@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Sign Up - iStudio</title>
+    <style>
+        .signup-container {
+            max-width: 450px;
+            width: 100%;
+            margin: 60px auto;
+        }
+        .auth-card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        .btn-auth {
+            background-color: #2874f0;
+            color: white;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        .btn-auth:hover {
+            background-color: #1259cc;
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <!-- Simple Header for Auth -->
+    <header class="py-3 bg-white shadow-sm mb-5">
+        <div class="container text-center">
+            <a href="index.html">
+                <img src="assets/images/logo.png" width="120" alt="iStudio">
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="signup-container">
+            <div class="card auth-card p-4 p-md-5 bg-white">
+                <h3 class="font-weight-bold text-center mb-4">Create Account</h3>
+                <form action="login.html" method="GET">
+                    <div class="form-group mb-3">
+                        <label class="small font-weight-bold text-muted">Full Name</label>
+                        <input type="text" class="form-control px-3" placeholder="Enter Full Name" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="small font-weight-bold text-muted">Email Address</label>
+                        <input type="email" class="form-control px-3" placeholder="Enter Email Address" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label class="small font-weight-bold text-muted">Mobile Number</label>
+                        <input type="tel" class="form-control px-3" placeholder="Enter Mobile Number" required>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label class="small font-weight-bold text-muted">Password</label>
+                        <input type="password" class="form-control px-3" placeholder="At least 6 characters" required>
+                    </div>
+                    <button type="submit" class="btn btn-auth btn-block shadow-sm">Continue</button>
+                    
+                    <div class="text-center mt-4">
+                        <p class="small text-muted">Existing User? <a href="login.html" class="font-weight-bold text-primary">Log in</a></p>
+                    </div>
+
+                    <p class="small text-muted text-center mt-4" style="line-height: 1.4;">
+                        By continuing, you agree to iStudio's <a href="#" class="text-primary">Terms of Use</a> and <a href="#" class="text-primary">Privacy Policy</a>.
+                    </p>
+                </form>
+            </div>
+            <div class="text-center mt-5">
+                <a href="index.html" class="text-muted small"><i class="fas fa-arrow-left mr-1"></i> Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
