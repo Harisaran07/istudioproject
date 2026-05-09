@@ -1,6 +1,6 @@
-# 🛍️ iStudio — Your Ultimate Fashion Destination
+# 🛍️ E-Commerce Website — Your Ultimate Fashion Destination
 
-![iStudio Banner](assets/images/banner1.png)
+![E-Commerce Website Banner](assets/images/banner1.png)
 
 > A modern, fully responsive e-commerce web application built with HTML, CSS, Bootstrap, and JavaScript.
 
@@ -21,7 +21,7 @@
 
 ## 📖 About
 
-**iStudio** is a feature-rich front-end e-commerce marketplace project that delivers a premium shopping experience. It includes product listings, category browsing, a shopping cart, checkout flow, user authentication pages, and much more — all built using vanilla HTML, CSS, and Bootstrap.
+**E-Commerce Website** is a feature-rich front-end e-commerce marketplace project that delivers a premium shopping experience. It includes product listings, category browsing, a shopping cart, checkout flow, user authentication pages, and much more — all built using vanilla HTML, CSS, and Bootstrap.
 
 ---
 
@@ -78,7 +78,7 @@
 ## 📁 Project Structure
 
 ```
-istudio-project/
+ecommerce-website/
 ├── index.html              # Home page
 ├── about.html              # About Us
 ├── cart.html               # Shopping Cart
@@ -148,4 +148,4 @@ This project is for educational purposes. Feel free to use and modify.
 
 ---
 
-> © 2026 iStudio Marketplace. All Rights Reserved.
+> © 2026 E-Commerce Website. All Rights Reserved.
